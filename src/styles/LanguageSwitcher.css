@@ -1,0 +1,15 @@
+.language-switcher {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 0 10px;
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+button.active {
+    background-color: #3498db;
+    color: white;
+}

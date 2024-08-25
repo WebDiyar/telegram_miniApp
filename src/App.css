@@ -1,0 +1,40 @@
+.app-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.zodiac-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    justify-items: center;
+}
+
+.zodiac-block {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.zodiac-block:hover {
+    transform: scale(1.05);
+}
+
+.horoscope {
+    padding: 20px;
+}
+
+.back-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.back-button:hover {
+    background-color: #2980b9;
+}
